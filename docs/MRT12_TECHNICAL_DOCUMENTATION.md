@@ -333,6 +333,29 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Research Inspiration**: Building upon transformer and geometric deep learning literature
 - **Community Support**: Open source tools and frameworks that made this possible
 
+
+
+## 📥 Large File Download Instructions
+
+Due to GitHub's file size limit (≤100MB per file), the following large files need to be downloaded from Quark Cloud Drive:
+
+**🔗 Quark Drive Link**: https://pan.quark.cn/s/c9101da1efe2
+
+**Files to Download**:
+1. `mrt12_step_070000_20260301_213409.pth` (~2.3GB) - Pre-trained model checkpoint
+2. `zhwiki_dataset.jsonl` (~2.4GB) - Chinese Wikipedia training corpus
+
+**Placement After Download**:
+```
+MRT12_FULL_RELEASE/
+├── data/
+│   └── zhwiki_dataset.jsonl  # Place here
+└── models/
+    └── mrt12_step_070000_20260301_213409.pth  # Place here
+```
+
+**💡 Tip**: Open "Quark APP" to view online without downloading, supports 5x speed playback and TV casting.
+
 ## 📞 Contact & Support
 
 For questions, issues, or collaboration opportunities:

@@ -26,10 +26,10 @@ MRT12_FULL_RELEASE/
 │   ├── cleaning.py         # 数据清洗和标准化
 │   ├── dataset.py          # 数据集和词汇表管理
 │   ├── mrt_vocab.json      # 模型词汇表 (7,429 tokens)
-│   ├── zhwiki_dataset.jsonl # 中文维基百科语料 (1200 万句)
+│   ├── zhwiki_dataset.jsonl # 中文维基百科语料 (1200 万句，2.4GB) ⬇️ 从夸克网盘下载
 │   └── __init__.py
 ├── models/                  # 预训练模型检查点
-│   └── mrt12_step_070000_20260301_213409.pth
+│   └── mrt12_step_070000_20260301_213409.pth ⬇️ 从夸克网盘下载
 ├── utils/                   # 工具模块
 │   ├── logger.py           # 工业级日志管理（50MB 限制）
 │   ├── checkpoint.py       # 智能检查点管理
@@ -56,6 +56,11 @@ MRT12_FULL_RELEASE/
 ├── CLEANUP_SUMMARY.md       # 代码清理总结
 └── README.md                # 本文档
 ```
+
+**📥 大型文件下载**：
+- **模型检查点** (`mrt12_step_070000_20260301_213409.pth`) 和 **数据集** ([zhwiki_dataset.jsonl](file:///home/bing/Documents/MRT/MRT12_FULL_RELEASE/data/zhwiki_dataset.jsonl)) 请从夸克网盘下载
+- **夸克网盘链接**: https://pan.quark.cn/s/c9101da1efe2
+- **文件大小**: 模型 ~2.3GB，数据集 ~2.4GB
 
 ## 🚀 快速开始
 
