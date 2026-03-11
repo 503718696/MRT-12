@@ -1,7 +1,53 @@
 # MRT-12: 流形循环变换器
 
+<div align="center">
+
+[🇨🇳 中文](README_中文.md) | [🇬🇧 English](README.md)
+
+[项目主页](https://github.com/503718696/MRT-12.git) | [技术文档](./) | [夸克网盘下载](https://pan.quark.cn/s/c9101da1efe2)
+
+</div>
+
+---
+
+## 📚 文档导航 | Documentation Navigation
+
+### 📖 核心技术文档 | Technical Documentation
+
+| 文档名称 | 中文 | English | 描述 |
+|---------|------|---------|------|
+| **技术文档** | [📄 查看](MRT12 中文技术文档.md) | [📄 View](MRT12_TECHNICAL_DOCUMENTATION.md) | 完整的技术架构、API 说明和使用指南 |
+| **架构对比** | [📊 查看](ARCHITECTURE_COMPARISON_中文.md) | [📊 View](ARCHITECTURE_COMPARISON.md) | MRT-12 与 Transformer、Mamba 等架构的详细对比分析 |
+| **核心优势** | [🏆 查看](MRT12_CORE_ADVANTAGES.md) | - | MRT-12 的独家优势和战略定位分析 |
+| **快速入门** | [🚀 查看](README_中文.md) | [🚀 View](README.md) | 快速上手指南和项目介绍 |
+
+### 🔧 使用指南 | User Guides
+
+| 文档名称 | 文件路径 | 描述 |
+|---------|---------|------|
+| **数据与模型说明** | [DATA_AND_MODELS.md](../DATA_AND_MODELS.md) | 详细介绍训练数据、预训练模型和使用方法 |
+| **GPU/CPU 自适应指南** | [GPU_CPU_ADAPTIVE_GUIDE.md](../GPU_CPU_ADAPTIVE_GUIDE.md) | GPU 和 CPU 环境下的部署和运行指南 |
+| **代码清理总结** | [CLEANUP_SUMMARY.md](../CLEANUP_SUMMARY.md) | 代码优化和清理过程的总结报告 |
+| **项目结构说明** | [PROJECT_STRUCTURE.md](../PROJECT_STRUCTURE.md) | 项目目录结构和模块功能详解 |
+
+### 📊 测试报告 | Test Reports
+
+| 文档名称 | 文件路径 | 描述 |
+|---------|---------|------|
+| **模型测试报告** | [MODEL_TEST_REPORT.md](../MODEL_TEST_REPORT.md) | 模型性能测试结果和分析 |
+| **基准测试结果** | [benchmark_results.json](../benchmark_results.json) | 详细的性能基准测试数据 |
+
+### 📝 逻辑库 | Logic Libraries
+
+| 文档名称 | 文件路径 | 描述 |
+|---------|---------|------|
+| **逻辑规则库** | [logic_library.json](../logic_library.json) | 精简版逻辑规则库（1.5KB） |
+| **Omega 逻辑库** | [omega_logic_library.json](../omega_logic_library.json) | 完整版 Omega 逻辑库（3.2KB） |
+
+---
+
 <p align="center">
-  <img src="docs/mrt12_logo.png" alt="MRT-12 Logo" width="200"/>
+  <img src="mrt12_logo.png" alt="MRT-12 Logo" width="200"/>
 </p>
 
 <p align="center">
@@ -33,7 +79,7 @@ MRT-12（流形循环变换器 12）是一种新颖的神经架构，将**几何
 - **软件**：Python 3.10+, PyTorch 2.0+, CUDA 11.8+
 
 ### 安装步骤
-```bash
+``bash
 # 导航到发布目录
 cd MRT12_FULL_RELEASE
 
@@ -205,3 +251,12 @@ MRT-12 证明了几何方法可以增强传统变换器架构：
 MRT-12 是一个采用模块化架构设计的通用拓扑语言模型，具有以下特点：
 
 - **模块化解耦**：核心数学、模型架构、数据处理、工具组件完全分离
+```
+
+```
+
+```
+
+```
+
+```

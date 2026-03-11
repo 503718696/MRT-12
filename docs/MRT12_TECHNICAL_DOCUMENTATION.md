@@ -1,5 +1,15 @@
 # MRT-12: Manifold Recurrent Transformer - Technical Documentation
 
+<div align="center">
+
+[🇨🇳 中文技术文档](MRT12 中文技术文档.md) | [🇬🇧 English Technical Docs](MRT12_TECHNICAL_DOCUMENTATION.md)
+
+[Back to README](../README.md) | [项目主页](https://github.com/503718696/MRT-12.git) | [夸克网盘](https://pan.quark.cn/s/c9101da1efe2)
+
+</div>
+
+---
+
 ## 🌟 Project Overview
 
 MRT-12 (Manifold Recurrent Transformer 12) is a cutting-edge neural language model architecture that combines geometric manifold learning with recurrent transformer mechanisms. This project represents a significant advancement in foundation model research, featuring 840M parameters trained on Chinese Wikipedia corpus with innovative architectural designs.
