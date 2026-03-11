@@ -1,0 +1,92 @@
+# MRT-12 Git 忽略文件配置
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 训练检查点和日志（体积大，可重新训练）
+models/*.pth
+checkpoints/
+*.log
+training_logs/
+
+# 大型数据文件（超过 100MB 的文件，避免 GitHub 限制）
+data/*.jsonl
+data/*.txt
+*.jsonl
+*.txt
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+
+# 环境变量文件
+.env
+.env.local
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints
+
+# 测试和覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# 文档构建
+docs/_build/
+
+# 压缩备份文件
+*.tar.gz
+*.zip
+*.rar
+
+# 大型输出文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+
+# 特定于项目的忽略项
+mrt10_*.pth
+mrt11_*.pth
+mrt12_*.pth
+checkpoint_*.pth
+*_checkpoint.pth
+
+# 日志轮转文件
+*.log.*
+
+# 系统文件
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini

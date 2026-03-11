@@ -1,0 +1,41 @@
+[
+  {
+    "vocab_size": 1000,
+    "d_model": 256,
+    "num_layers": 4,
+    "batch_size": 4,
+    "seq_len": 32,
+    "device": "cuda",
+    "total_params": 2361600,
+    "avg_latency_ms": 3.2979488372802734,
+    "min_latency_ms": 3.2308101654052734,
+    "max_latency_ms": 3.570079803466797,
+    "throughput_tokens_sec": 38812.00294955395
+  },
+  {
+    "vocab_size": 5000,
+    "d_model": 512,
+    "num_layers": 8,
+    "batch_size": 4,
+    "seq_len": 64,
+    "device": "cuda",
+    "total_params": 16749056,
+    "avg_latency_ms": 8.76922607421875,
+    "min_latency_ms": 8.646965026855469,
+    "max_latency_ms": 8.923053741455078,
+    "throughput_tokens_sec": 29192.99808595789
+  },
+  {
+    "vocab_size": 8000,
+    "d_model": 768,
+    "num_layers": 12,
+    "batch_size": 2,
+    "seq_len": 128,
+    "device": "cuda",
+    "total_params": 51831552,
+    "avg_latency_ms": 20.833635330200195,
+    "min_latency_ms": 20.71547508239746,
+    "max_latency_ms": 21.006345748901367,
+    "throughput_tokens_sec": 12287.821877582035
+  }
+]
